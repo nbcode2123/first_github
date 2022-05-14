@@ -1,0 +1,129 @@
+/* reset padding margin */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+* .banner {
+  height: 865px;
+  background: url(banner.jpg) center no-repeat;
+  overflow: hidden;
+}
+* .banner .mid {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+* .banner .mid .about-signin {
+  height: 79px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse;
+          flex-flow: row-reverse;
+}
+* .banner .mid .about-signin .about,
+* .banner .mid .about-signin .signin {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 1px;
+}
+* .banner .mid .about-signin .signin {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  color: #8ddf12;
+  border: solid 1px #8ddf12;
+  border-radius: 100px;
+  padding: 9px;
+}
+* .banner .mid .about-signin .about {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  padding: 10px;
+  margin-right: 5px;
+}
+* .banner .mid .logo {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 165px;
+  margin-bottom: 30px;
+}
+* .banner .mid .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+* .banner .mid .icon .child_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+* .banner .mid .icon img {
+  height: 48px;
+  width: 52px;
+  margin-bottom: 15px;
+}
+* .banner .mid .icon p {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+}
+* .banner .mid .text-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+* .banner .mid .text-btn p {
+  font-size: 18px;
+  height: 11px;
+  font-style: italic;
+  text-align: center !important;
+  margin-bottom: 30px;
+}
+* .banner .mid .text-btn button {
+  height: 40px;
+  width: 144px;
+  font-size: large;
+  border-radius: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  background: -webkit-gradient(linear, right top, left top, from(#a4e82c), to(#30a003));
+  background: linear-gradient(270deg, #a4e82c 0%, #30a003 100%);
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
